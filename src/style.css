@@ -1,0 +1,165 @@
+
+body,
+html {
+ background-image: url("pinkpicture5.jpg");
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+#título {
+ font-family: "Chalkduster";
+ text-align: center;
+ color: rgb(17, 16, 16);
+ font-size: 5rem;
+}
+.love {
+ width: 50px;
+ height: 50px;
+ transform: rotate(45deg);
+ background: red;
+}
+.love:before,
+.love:after {
+ content: "";
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background: red;
+}
+.love {
+ width: 50px;
+ height: 50px;
+ transform: rotate(45deg);
+ background: red;
+ position: relative;
+ top: 10rem;
+ left: 10rem;
+}
+
+.love:before,
+.love:after {
+ content: "";
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background: red;
+ position: absolute;
+}
+
+.love:before {
+ top: 0;
+ left: -25px;
+}
+
+.love:after {
+ top: -25px;
+}
+.love {
+ width: 50px;
+ height: 50px;
+ transform: rotate(45deg);
+ background: red;
+ position: relative;
+ top: 10rem;
+ left: 10rem;
+ animation: beating 2s ease infinite;
+}
+
+@keyframes beating {
+ 0% {
+   transform: rotate(45deg) scale(1);
+ }
+ 50% {
+   transform: rotate(45deg) scale(2);
+ }
+ 100% {
+   transform: rotate(45deg) scale(1);
+ }
+}
+.topMargin {
+ margin-top: 2rem;
+}
+
+.instr {
+ font-family: "Chalkduster";
+ text-align: center;
+ color: rgb(2, 0, 0);
+ font-size: 139%;
+}
+
+.desplazamientos {
+ font-family: "Chalkduster";
+ color: rgb(7, 0, 0);
+ text-align: center;
+}
+
+#desplazamientos {
+ width: 4rem;
+ border-radius: 5px;
+ margin-left: 46%;
+}
+
+#mensajeOriginal {
+ resize: none;
+ border: 1px rgb(5, 0, 0);
+ background-color: white;
+ height: 9rem;
+ width: 80%;
+ border-radius: 12px;
+ margin-left: 10%;
+ padding: 1rem;
+}
+
+#textoCifradoDescrifrado {
+ resize: none;
+ border: 1px rgb(5, 0, 0);
+ background-color: white;
+ height: 9rem;
+ width: 80%;
+ border-radius: 12px;
+ margin-left: 10%;
+ padding: 1rem;
+}
+
+#cifrar {
+   font-family: "Chalkduster";
+   width:150px;
+   height:100px;
+   text-decoration: none;
+   padding: 10px;
+   font-weight: 600;
+   font-size: 20px;
+   color: #ffffff;
+   background-color: #ee6ec8;
+   border-radius: 8px;
+   border: 5px solid #a04782;
+ }
+
+ #descifrar {
+   font-family: "Chalkduster";
+   width:150px;
+   height:100px;
+   text-decoration: none;
+   padding: 10px;
+   font-weight: 600;
+   font-size: 20px;
+   color: #ffffff;
+   background-color: #ee6ec8;
+   border-radius: 8px;
+   border: 5px solid #a04782;
+ }
+
+}
+.instr {
+ text-align: center;
+}
+
+.btn {
+ width: 80%;
+ border-radius: 12px;
+ background-image: linear-gradient(hsl(340, 77%, 71%), hsl(327, 46%, 50%));
+ font-family: "Chalkduster";
+ color: white;
+ text-align: center;
+}
