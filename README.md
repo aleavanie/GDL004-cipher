@@ -6,6 +6,7 @@ Este proyecto está basado en el código César con la capacidad de "cifrar" y "
 
 Imagen final:
 
+![](src/Imágenes/Screen%20Shot%202019-11-08%20at%2010.00.38%201.png)
 
 Investigación UX:
 i. Explicar quiénes son los usuarios y los objetivos en relación con el producto:
@@ -16,6 +17,7 @@ Las personas tendrán la posibilidad de cifrar o descifrar cualquier texto, sin 
 
 iii. Luego colocarás la foto de tu primer prototipo en papel:
 
+![](src/Imágenes/Prototipo%20en%20papel.jpeg)
 
 iv. Agregar un resumen del feedback recibido indicando las mejoras a realizar:
 El feedback que recibí de mis compañeras fue que podía ser más clara con las instrucciones que le estaba dando al usuario.
