@@ -27,3 +27,5 @@ Las personas tendrán la posibilidad de cifrar o descifrar cualquier texto, sin 
 El feedback que recibí de mis compañeras fue que podía ser más clara con las instrucciones que le estaba dando al usuario.
 
 **v.** Imagen del prototipo final:
+
+![](src/Imágenes/Screen%20Shot%202019-11-08%20at%2012.59.18.png)
